@@ -12,7 +12,7 @@ services:
        - "3030:80"
 
     php-fpm:
-      build: phpdocker/php-fpm
+      build: docker/php-fpm
       container_name: php-hexagonal-php-fpm
       working_dir: /application
       volumes:
